@@ -1,0 +1,32 @@
+verilog xil_defaultlib --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/02c8/hdl/verilog" --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/b193/hdl" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ipshared/f406/hdl/mat_add_v1_0_S00_AXI.v" \
+
+sv xil_defaultlib --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/02c8/hdl/verilog" --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/b193/hdl" \
+"../../../bd/design_1/ipshared/f406/src/alu_pe.sv" \
+"../../../bd/design_1/ipshared/f406/src/cgra_clock_gating.sv" \
+"../../../bd/design_1/ipshared/f406/src/counter_pe.sv" \
+"../../../bd/design_1/ipshared/f406/src/fpu_defs.sv" \
+"../../../bd/design_1/ipshared/f406/src/fpu_add.sv" \
+"../../../bd/design_1/ipshared/f406/src/fpu_core.sv" \
+"../../../bd/design_1/ipshared/f406/src/fpu_ff.sv" \
+"../../../bd/design_1/ipshared/f406/src/fpu_mult.sv" \
+"../../../bd/design_1/ipshared/f406/src/fpu_norm.sv" \
+"../../../bd/design_1/ipshared/f406/src/fpu_top.sv" \
+"../../../bd/design_1/ipshared/f406/src/hloop.sv" \
+"../../../bd/design_1/ipshared/f406/src/inst_sync.sv" \
+"../../../bd/design_1/ipshared/f406/src/instmem_pe.sv" \
+"../../../bd/design_1/ipshared/f406/src/orcond.sv" \
+"../../../bd/design_1/ipshared/f406/src/regfile_pe.sv" \
+"../../../bd/design_1/ipshared/f406/src/scrf.sv" \
+"../../../bd/design_1/ipshared/f406/src/tile_ipa.sv" \
+
+verilog xil_defaultlib --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/02c8/hdl/verilog" --include "../../../../project_1.srcs/sources_1/bd/design_1/ipshared/b193/hdl" \
+"../../../bd/design_1/ipshared/f406/hdl/mat_add_v1_0.v" \
+"../../../bd/design_1/ip/design_1_mat_add_0_0/sim/design_1_mat_add_0_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
